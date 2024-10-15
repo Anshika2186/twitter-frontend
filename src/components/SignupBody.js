@@ -34,7 +34,7 @@ function SignupBody() {
       password: password,
     };
 
-    fetch("http://localhost:5000/signup", {
+    fetch("https://twitter-backend-gsqq.onrender.com/signup", {
       method: "POST",
       headers: {
         "Content-type": "application/json",
@@ -76,7 +76,7 @@ function SignupBody() {
         </div>
         <form
           className="homeContainer-form"
-          action="http://localhost:5000/signup"
+          action="https://twitter-backend-gsqq.onrender.com/signup"
           method="post"
           onSubmit={handleSubmit}
         >
