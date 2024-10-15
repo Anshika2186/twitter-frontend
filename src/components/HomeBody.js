@@ -46,7 +46,7 @@ function HomeBody() {
       password: password,
     };
 
-    fetch("http://localhost:5000/", {
+    fetch("https://twitter-backend-gsqq.onrender.com/", {
       method: "POST",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify(oldPerson),
@@ -105,7 +105,7 @@ function HomeBody() {
 
         <form
           className="homeContainer-form"
-          action="http://localhost:5000/signup"
+          action="https://twitter-backend-gsqq.onrender.com/signup"
           method="post"
           onSubmit={handleSubmit}
         >
