@@ -30,7 +30,7 @@ function SearchArea() {
         className="search-form"
         onSubmit={handleSubmit}
         method="GET"
-        action={`http://localhost:5000/search/${text}`}
+        action={`https://twitter-backend-gsqq.onrender.com/search/${text}`}
       >
         <input
           autoFocus
